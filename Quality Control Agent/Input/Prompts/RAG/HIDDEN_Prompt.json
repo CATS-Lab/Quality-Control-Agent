@@ -1,0 +1,21 @@
+{
+  "role": "system",
+  "content": {
+    "instruction": "You must output only a single JSON object with the following structure:",
+    "format": "{\n  \"queries\": [\"<query1>\", \"<query2>\", \"<query3>\"]\n}",
+    "example": {
+      "queries": [
+        "urban arterial two-way two-lane asphalt pavement distress inspection work zone manual",
+        "urban arterial lane closure temporary traffic control signage visibility pedestrian crosswalk bicycle lane inspection",
+        "urban road traffic volume below 400 vehicles asphalt surface evaluation work zone safety standards"
+      ]
+    },
+    "rules": [
+      "Do not include explanations, comments, or any other text.",
+      "Output between 2 and 3 queries depending on the input.",
+      "Each query must be in plain English, no longer than 25 words.",
+      "Emphasize technical terms from the Work Zone Manual (e.g., pavement evaluation, work zone safety, lane closure inspection).",
+      "Each query should highlight slightly different aspects of the road segment to maximize retrieval coverage."
+    ]
+  }
+}

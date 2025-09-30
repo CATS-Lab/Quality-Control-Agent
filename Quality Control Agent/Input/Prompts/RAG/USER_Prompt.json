@@ -1,0 +1,8 @@
+{
+  "role": "user",
+  "content": {
+    "instruction": "Please analyze the provided road segment description and image(s).",
+    "task": "Generate 2 to 3 retrieval queries that will help locate relevant sections in the Work Zone Manual for preparing an inspection report.",
+    "description": "Here is the road segment description:\n\"The segment is located on W Washington Avenue at Regent Street, Madison, Wisconsin. It is a two-way urban arterial road with approximately four lanes (including turning lanes). The average hourly traffic volume is below 400 vehicles. There are pedestrian crosswalks, bicycle lanes, and nearby signalized intersections. Surrounding land use includes institutional and commercial buildings.\""
+  }
+}

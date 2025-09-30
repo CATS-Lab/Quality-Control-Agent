@@ -1,0 +1,8 @@
+{
+  "role": "user",
+  "content": {
+    "instruction": "You are given four types of inputs: (1) keyframes extracted from the work zone video, (2) depth maps from point cloud data, (3) a simple map-derived description of the road segment, and (4) relevant reference sections retrieved from the Work Zone Manual.",
+    "task": "Based on these inputs, analyze the placement and condition of traffic control devices (e.g., cones, barriers, signage), evaluate worker safety practices (e.g., PPE usage), and identify compliance or non-compliance issues. Generate a structured Work Zone Quality Report with observations and recommendations.",
+    "description": "The segment is located on W Washington Avenue at Regent Street, Madison, Wisconsin. It is a two-way urban arterial road with approximately four lanes (including turning lanes). The average hourly traffic volume is below 400 vehicles. There are pedestrian crosswalks, bicycle lanes, and nearby signalized intersections. Surrounding land use includes institutional and commercial buildings."
+  }
+}

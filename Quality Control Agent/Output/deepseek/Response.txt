@@ -1,0 +1,11 @@
+{
+  "report": [
+    {"id": "001", "type": "Traffic Control", "description": "No advance warning signs observed upstream of the work zone, non-compliant with manual standards for establishing temporary traffic control zones."},
+    {"id": "002", "type": "Traffic Control", "description": "Arrow board not present despite urban arterial context, non-compliant with requirements for lane closures at signalized intersections."},
+    {"id": "003", "type": "Traffic Control", "description": "END ROAD WORK sign placement not verified 500 feet past work area, potentially non-compliant with manual specifications."},
+    {"id": "004", "type": "Pedestrian Safety", "description": "Pedestrian crosswalk closures lack adequate temporary facilities with accessibility features, non-compliant with pedestrian detour requirements."},
+    {"id": "005", "type": "Worker Safety", "description": "Workers observed without high-visibility apparel in active work zone, violating PPE compliance standards."},
+    {"id": "006", "type": "Traffic Control", "description": "Channelizing device spacing appears excessive, reducing conspicuity and non-compliant with enhanced device requirements for urban areas."},
+    {"id": "007", "type": "Operational Compliance", "description": "No documented coordination with road authority for signal timing modifications at intersection work, non-compliant with establishment checklist."}
+  ]
+}

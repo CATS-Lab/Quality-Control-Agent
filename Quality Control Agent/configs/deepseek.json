@@ -1,0 +1,7 @@
+{
+  "model_name": "deepseek-chat",
+  "api_key": "sk-77279a6d6ffc4883bf22b39fd88d7f6e",
+  "base_url": "https://api.deepseek.com",
+  "temperature": 1.0
+
+}

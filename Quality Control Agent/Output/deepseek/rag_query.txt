@@ -1,0 +1,7 @@
+{
+  "queries": [
+    "urban arterial two-way four-lane asphalt pavement distress inspection rutting cracking work zone manual",
+    "urban arterial work zone safety temporary traffic control lane closure signage visibility pedestrian crosswalk bicycle lane",
+    "urban arterial traffic volume below 400 vehicles pavement evaluation drainage inspection work zone standards"
+  ]
+}
