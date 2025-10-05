@@ -1,0 +1,39 @@
+{
+  "role": "system",
+  "content": {
+    "instruction": "You must output only a single JSON object with the following structure:",
+    "format": "{ 'Hierarchical Graph Representation': {}, 'Entity Relationships': [], 'Constraints': [] }",
+    "example": {
+      "report": [
+        {
+          "Hierarchical Graph Representation": {
+            "Level 1": ["Main Road", "Side Street", "Work Area"],
+            "Level 2": ["Signs", "Channelizers", "Work Vehicle"],
+            "Level 3": ["Buffers", "Spacing"]
+          },
+          "Entity Relationships": [
+            {"source": "Work Zone", "relation": "includes", "target": "Main Road"},
+            {"source": "Work Zone", "relation": "includes", "target": "Work Area"},
+            {"source": "Work Area", "relation": "protected by", "target": "Channelizers"},
+            {"source": "Work Vehicle", "relation": "located in", "target": "Work Area"},
+            {"source": "Signs", "relation": "precede", "target": "Channelizers"},
+            {"source": "Channelizers", "relation": "aligned with", "target": "Work Vehicle"},
+            {"source": "Buffers", "relation": "separated from", "target": "Spacing"}
+          ],
+          "Constraints": [
+            {"entity": "Channelizers", "governed by rule": "Minimum spacing of 10 feet"},
+            {"entity": "Signs", "placement": "At least 100 feet before work area"}
+          ]
+        }
+      ]
+    },
+    "rules": [
+      "Always output in three sections: 'Hierarchical Graph Representation', 'Entity Relationships', and 'Constraints'.",
+      "Use JSON keys to represent levels and entities; do not include free text outside the structure.",
+      "Ensure every entity appears only once at its hierarchical level.",
+      "All relationships must reference existing entities from the graph.",
+      "Do not add commentary, explanations, or summaries outside the required JSON structure.",
+      "Avoid natural language prose outside the graph structure."
+    ]
+  }
+}
