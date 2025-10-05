@@ -1,0 +1,6 @@
+{
+  "model_name": "gpt-5-nano",
+  "api_key": "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",
+  "base_url": "https://api.openai.com",
+  "temperature": 0.2
+}

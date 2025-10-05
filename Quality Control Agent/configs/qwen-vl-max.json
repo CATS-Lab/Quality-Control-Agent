@@ -1,0 +1,6 @@
+{
+  "model_name": "qwen-vl-max",
+  "api_key": "sk-eb8fe5ac59cf45d59ff59da7faa705ae",
+  "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+  "temperature": 1.0
+}
